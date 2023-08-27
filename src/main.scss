@@ -1,0 +1,57 @@
+:root {
+    --size: 18px;
+    --radius-big: 20px;
+    --radius-small: 12px;
+
+    --icon: #d0d0d0;
+
+    --input: #e9ecef;
+
+    --link: #336fee;
+    --link-hover: #1f50ba;
+
+    --table-head: #f7f7f9; /* #eeeef3 */ /* #e9ecef */ /* #f8fafd */
+    --table-head-line: #dee2e6; /* #c0c0c0 */ /* #808080 */
+    --table-line: #dee2e6;
+    --table-hover: #f8fafd;
+
+    // light
+    --bg: #fff;
+    --block: #fff;
+    --font: #212529;
+
+    // dark
+    --font-dark: #fff;
+
+    // violet
+    --bg-violet: #f0e7ff;
+    --font-violet: #c3a3f2;
+
+    // blue
+    --bg-blue: rgb(240, 246, 255);
+    --font-blue: rgb(56, 97, 251);
+
+    // green
+    --bg-green: rgb(223, 243, 227);
+    --font-green: rgb(110, 197, 121);
+    --btn-green: #5CB254;
+
+    // red
+    --bg-red: rgba(249, 226, 226);
+    --font-red: rgb(232, 119, 115);
+
+    // orange
+    --bg-orange: #fff5ec;
+    --font-orange: rgb(255, 155, 64);
+    --btn-orange: #ECAC41;
+    --btn-hover-orange: #E09A38;
+
+    // yellow
+    --bg-yellow: rgba(249, 242, 214);
+    --font-yellow: rgb(228, 193, 75);
+    --btn-yellow: #fedd2c;
+    --btn-hover-yellow: #ffcc33;
+
+    // pink - orange
+    --bg-pink-orange: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(45deg,#ff4087,#ffc056);
+}

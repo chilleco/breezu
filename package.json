@@ -1,0 +1,35 @@
+{
+  "name": "chillui",
+  "version": "0.1.0",
+  "description": "Minimalist universal UI framework",
+  "main": "dist/index.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:scss": "node-sass src/main.scss dist/main.css",
+    "combine:css": "concat src/base.css dist/main.css -o dist/index.css",
+    "build": "npm run compile:scss && npm run combine:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chilleco/chillui.git"
+  },
+  "keywords": [
+    "ui framework",
+    "ux/ui",
+    "minimalistic",
+    "universal",
+    "frontend framework"
+  ],
+  "author": "Alex Poloz (alexypoloz@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chilleco/chillui/issues"
+  },
+  "homepage": "https://github.com/chilleco/chillui#readme",
+  "dependencies": {
+    "concat": "^1.0.3",
+    "cssnano": "^6.0.1",
+    "node-sass": "^9.0.0",
+    "postcss-cli": "^10.1.0"
+  }
+}

@@ -1,0 +1,87 @@
+/* body {
+    background: url(/back.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.all {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+} */
+
+/* Form */
+
+input {
+    background-color: var(--input);
+    width: 100%;
+    border: 0;
+    border-radius: var(--radius-small);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    outline: 0;
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color: var(--btn-green);
+    /* background-color: var(--btn-yellow); */
+    width: 100%;
+    border: 0;
+    border-radius: var(--radius-small);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    outline: 0;
+    font-weight: 600;
+    /* color: var(--font-dark); */
+    cursor: pointer;
+}
+
+button:hover {
+    filter: brightness(110%);
+    /* background-color: var(--btn-hover-yellow); */
+}
+
+/* Table */
+
+thead tr {
+    border-bottom: 2px solid var(--table-head-line);
+}
+
+th {
+    background-color:var(--table-head) ;
+}
+
+th,
+td {
+    padding: 4px 16px;
+    height: 48px;
+}
+
+th:first-child {
+    border-radius: var(--radius-big) 0 0 0;
+}
+
+th:last-child {
+    border-radius: 0 var(--radius-big) 0 0;
+}
+
+tbody tr:hover td {
+    background-color: var(--table-hover);
+}
+
+tbody tr:not(:last-child) {
+    border-bottom: 1px solid var(--table-line);
+}
+
+tr:last-child td:first-child {
+    border-radius: 0 0 0 var(--radius-big);
+}
+
+tr:last-child td:last-child {
+    border-radius: 0 0 var(--radius-big) 0;
+}
+
+table i {
+    color: var(--icon);
+    margin: 0 2px;
+}
