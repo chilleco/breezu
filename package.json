@@ -1,17 +1,17 @@
 {
-  "name": "chillui",
-  "version": "0.1.0",
+  "name": "breezu",
+  "version": "0.1.1",
   "description": "Minimalist universal UI framework",
   "main": "dist/index.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile:scss": "node-sass src/main.scss dist/main.css",
-    "combine:css": "concat src/base.css dist/main.css -o dist/index.css",
+    "combine:css": "postcss src/index.css -o dist/index.css",
     "build": "npm run compile:scss && npm run combine:css"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chilleco/chillui.git"
+    "url": "git+https://github.com/chilleco/breezu.git"
   },
   "keywords": [
     "ui framework",
@@ -23,13 +23,17 @@
   "author": "Alex Poloz (alexypoloz@gmail.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chilleco/chillui/issues"
+    "url": "https://github.com/chilleco/breezu/issues"
   },
-  "homepage": "https://github.com/chilleco/chillui#readme",
+  "homepage": "https://github.com/chilleco/breezu#readme",
   "dependencies": {
     "concat": "^1.0.3",
     "cssnano": "^6.0.1",
     "node-sass": "^9.0.0",
     "postcss-cli": "^10.1.0"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.28",
+    "postcss-import": "^15.1.0"
   }
 }

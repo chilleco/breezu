@@ -23,8 +23,7 @@ input {
 }
 
 button {
-    background-color: var(--btn-green);
-    /* background-color: var(--btn-yellow); */
+    background-color: var(--btn-green); /* var(--btn-yellow); */
     width: 100%;
     border: 0;
     border-radius: var(--radius-small);
@@ -32,7 +31,7 @@ button {
     font-size: 1rem;
     outline: 0;
     font-weight: 600;
-    /* color: var(--font-dark); */
+    color: var(--font-dark);
     cursor: pointer;
 }
 
