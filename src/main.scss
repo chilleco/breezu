@@ -35,6 +35,7 @@
     --bg-green: rgb(223, 243, 227);
     --font-green: rgb(110, 197, 121);
     --btn-green: #5CB254;
+    --btn-hover-green: #50A04B;
 
     // red
     --bg-red: rgba(249, 226, 226);
@@ -54,4 +55,7 @@
 
     // pink - orange
     --bg-pink-orange: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(45deg,#ff4087,#ffc056);
+
+    --accent: var(--btn-green);
+    --accent-hover: var(--btn-hover-green);
 }
