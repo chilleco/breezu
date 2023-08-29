@@ -239,26 +239,33 @@ button.inactive {
 
 .form input:first-child,
 .form button:first-child {
-    border-top-left-radius: var(--radius-big); /* FIXME: var(--radius-small) */
-    border-top-right-radius: var(--radius-big); /* FIXME: var(--radius-small) */
+    border-top-left-radius: var(--radius-small);
+    border-top-right-radius: var(--radius-small);
     padding-top: 8px;
 }
 
 .form input:not(:last-child),
 .form button:not(:last-child) {
     border-bottom: 1px solid var(--table-line); /* FIXME */
-    /* border-bottom: 2px solid var(--table-line); */
 }
 
 .form input:last-child,
 .form button:last-child {
-    border-bottom-left-radius: var(--radius-big); /* FIXME: var(--radius-small) */
-    border-bottom-right-radius: var(--radius-big); /* FIXME: var(--radius-small) */
+    border-bottom-left-radius: var(--radius-small);
+    border-bottom-right-radius: var(--radius-small);
     padding-bottom: 8px;
 }
 
-.form input:last-child {
-    margin-bottom: 1rem;
+.right .form input:first-child,
+.right .form button:first-child {
+    border-top-left-radius: var(--radius-big);
+    border-top-right-radius: var(--radius-big);
+}
+
+.right .form input:last-child,
+.right .form button:last-child {
+    border-bottom-left-radius: var(--radius-big);
+    border-bottom-right-radius: var(--radius-big);
 }
 
 /* Inline */
@@ -267,6 +274,7 @@ button.inactive {
     width: 100%;
     white-space: nowrap;
     text-align: center;
+    margin: 8px 0 16px 0;
 }
 
 .inline i {
@@ -280,7 +288,7 @@ i.active {
 }
 
 .inline hr {
-    width: calc(100% / 4);
+    width: calc(100% / 3 - 3.6em);
     display: inline-block;
     margin: .5em;
     color: #c0c0c0;
@@ -292,14 +300,21 @@ i.active {
 .inline button {
     width: 50%;
     padding: 0 !important;
+    border-radius: 0 !important;
+}
+
+.inline > button:only-child {
+    width: 100% !important;
 }
 
 .inline button:first-child {
-    border-radius: var(--radius-big) 0 0 var(--radius-big) !important;
+    border-top-left-radius: var(--radius-small) !important;
+    border-bottom-left-radius: var(--radius-small) !important;
 }
 
 .inline button:last-child {
-    border-radius: 0 var(--radius-big) var(--radius-big) 0 !important;
+    border-top-right-radius: var(--radius-small) !important;
+    border-bottom-right-radius: var(--radius-small) !important;
 }
 
 hr.active {
@@ -389,8 +404,12 @@ hr.active {
     cursor: pointer;
 }
 
+.right .poll div {
+    margin: .7em 0;
+    border-radius: var(--radius-small);
+}
+
 .poll div:hover {
-    /* background-color: var(--icon); */
     filter: brightness(95%);
 }
 
