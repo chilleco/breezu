@@ -1,0 +1,31 @@
+.popup {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.popup_back {
+    width: 100%;
+    height: 100%;
+    z-index: 900;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.popup_body {
+    position: absolute;
+    background: #fff;
+    border-radius: var(--radius-big);
+    z-index: 901;
+    padding: 20px 24px;
+    min-width: 280px;
+    max-width: 500px;
+    text-align: center;
+}

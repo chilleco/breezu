@@ -95,7 +95,7 @@
     vertical-align: top;
 }
 
-.tileImage {
+.tile_image {
     /* margin: 5px 0 5px 5px; */
     display: inline-block;
     width: 100px;
@@ -106,20 +106,20 @@
     border-radius: 10px 0 0 0;
 }
 
-.tileBody {
+.tile_body {
     padding: 10px 17px 5px 10px;
     display: inline-block;
     width: calc(100% - 100px);
     vertical-align: top;
 }
 
-.tileTitle {
+.tile_title {
     font-size: 1.1em;
     font-weight: bold;
     margin-bottom: 5px;
 }
 
-.tileFooter {
+.tile_footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,12 +128,12 @@
     padding: 7px 5px 10px 5px;
 }
 
-.tileFooter div {
+.tile_footer div {
     display: flex;
     align-items: center;
 }
 
-.tileFooterImage {
+.tile_footer_image {
     background-size: cover;
     background-position: center center;
     width: 30px;
@@ -390,8 +390,7 @@ hr.active {
 }
 
 .poll p {
-    font-size: 1.2em;
-    font-weight: 600;
+    margin: 0;
 }
 
 .poll div {

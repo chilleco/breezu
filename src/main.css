@@ -23,6 +23,12 @@
     backdrop-filter: blur(8px);
 } */
 
+p {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
 /* Form */
 
 input {
