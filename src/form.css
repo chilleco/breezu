@@ -1,0 +1,97 @@
+.form input {
+    background-color: #fff; /* FIXME */
+}
+
+button.inactive {
+    background-color: #fff;
+    border: 2px solid var(--btn-green) !important;
+    color: var(--btn-green);
+}
+
+.form input,
+.form button {
+    height: 42px;
+    margin: 0;
+    border-radius: 0;
+}
+
+.form input:first-child,
+.form button:first-child {
+    border-top-left-radius: var(--radius-small);
+    border-top-right-radius: var(--radius-small);
+    padding-top: 8px;
+}
+
+.form input:not(:last-child),
+.form button:not(:last-child) {
+    border-bottom: 1px solid var(--table-line); /* FIXME */
+}
+
+.form input:last-child,
+.form button:last-child {
+    border-bottom-left-radius: var(--radius-small);
+    border-bottom-right-radius: var(--radius-small);
+    padding-bottom: 8px;
+}
+
+/* Side */
+
+.right .form input:first-child,
+.right .form button:first-child {
+    border-top-left-radius: var(--radius-big);
+    border-top-right-radius: var(--radius-big);
+}
+
+.right .form input:last-child,
+.right .form button:last-child {
+    border-bottom-left-radius: var(--radius-big);
+    border-bottom-right-radius: var(--radius-big);
+}
+
+/* Inline */
+
+.inline button {
+    width: 50%;
+    padding: 0 !important;
+    border-radius: 0 !important;
+}
+
+.inline > button:only-child {
+    width: 100% !important;
+}
+
+.inline button:first-child {
+    border-top-left-radius: var(--radius-small) !important;
+    border-bottom-left-radius: var(--radius-small) !important;
+}
+
+.inline button:last-child {
+    border-top-right-radius: var(--radius-small) !important;
+    border-bottom-right-radius: var(--radius-small) !important;
+}
+
+/* Files */
+
+.upload {
+    width: 100vw;
+    height: 250px;
+    border: 2px dashed #6c757d; /* FIXME */
+    border-radius: var(--radius-small);
+    cursor: pointer;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2.5em;
+}
+
+.upload div {
+    width: 100%;
+    height: 100%;
+    border-radius: var(--radius-small);
+    background-size: cover;
+    background-position: center center;
+}
+
+.upload input {
+    display: none;
+}

@@ -8,6 +8,12 @@
         <link rel="stylesheet" href="../dist/index.css">
         <link
           rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+          crossOrigin="anonymous"
+          referrerPolicy="origin-when-cross-origin"
+        />
+        <link
+          rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
           integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
           crossOrigin="anonymous"
@@ -16,7 +22,7 @@
     </head>
     <body>
         <div class="all">
-            <div class="header_back">
+            <div class="header_cover">
                 <nav class="header">
                     <a href="/">
                         <img
@@ -214,6 +220,26 @@
                             <button class="btn">Click me</button>
 
                             <br /><br />
+                            <label
+                                class="upload"
+                                for="uploader"
+                            >
+                                <i class="bi bi-file-earmark-arrow-up"></i>
+                                <input
+                                    id="uploader"
+                                    type="file"
+                                    accept="image/jpeg, image/png"
+                                />
+                            </label>
+                            <label
+                                class="upload"
+                                for="uploader"
+                                style="border: 0"
+                            >
+                                <div style="background-image: url(https://chill.services/load/9.png)"></div>
+                            </label>
+
+                            <br /><br />
                             <div class="form inline">
                                 <button>Next</button>
                             </div>
@@ -327,7 +353,7 @@
             </div>
             <footer></footer>
             <div class="popup">
-                <div class="popup_back"></div>
+                <div class="popup_cover"></div>
                 <div class="popup_body">
                     <button>
                         Sign in

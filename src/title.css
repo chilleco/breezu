@@ -1,0 +1,35 @@
+.title {
+    display: flex !important;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.title .icon {
+    display: flex;
+    font-size: 3em;
+    padding: .3em;
+    margin: .3em;
+    border-radius: var(--radius-big);
+    height: 1.65em;
+    width: 1.65em;
+    display: flex;
+    justify-content: center;
+}
+
+.title .icon.violet {
+    background-color: var(--bg-violet);
+    color: var(--font-violet);
+}
+.title .icon.green {
+    background-color: var(--bg-green);
+    color: var(--font-green);
+}
+
+.title h1 {
+    margin: 0;
+}
+
+.title a {
+    margin-left: 4px;
+    text-decoration: underline dotted;
+}

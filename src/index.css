@@ -3,4 +3,13 @@
 @import 'main.css';
 @import 'body.css';
 @import 'header.css';
+@import 'accordion.css';
+@import 'form.css';
+@import 'poll.css';
+@import 'section.css';
+@import 'steps.css';
+@import 'table.css';
+@import 'tag.css';
+@import 'tiles.css';
+@import 'title.css';
 @import 'popup.css';

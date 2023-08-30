@@ -1,0 +1,20 @@
+.tag {
+    padding: 0 8px;
+    border-radius: 10px;
+    display: inline-flex;
+}
+
+.tag.green {
+    background-color: var(--bg-green);
+    color: var(--font-green);
+}
+
+.tag.yellow {
+    background-color: var(--bg-yellow);
+    color: var(--font-yellow);
+}
+
+.tag.red {
+    background-color: var(--bg-red);
+    color: var(--font-red);
+}
