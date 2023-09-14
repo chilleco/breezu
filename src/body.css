@@ -57,12 +57,16 @@
 
 .text h2 {
     margin: 6px 0 2px 0;
-    font-size: 1.2em;
+    font-size: 1.25em;
     font-weight: 600;
 }
 
 .text h2:first-child {
     margin-top: 0;
+}
+
+.text h3 {
+    font-size: 1.1em;
 }
 
 /* Link */
