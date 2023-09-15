@@ -183,6 +183,7 @@
         width: calc(100% - 32px);
         background-color: #fff;
         border-radius: var(--radius-big);
+        flex-direction: column;
     }
 
     .block, .menu {
