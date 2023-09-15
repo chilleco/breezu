@@ -5,6 +5,7 @@
     margin-bottom: 36px;
     backdrop-filter: blur(8px);
     /* background-color: hsla(0,0%,100%,.7); */
+    z-index: 700;
 }
 
 .header {
@@ -190,7 +191,12 @@
         flex-wrap: wrap;
     }
 
-    .menu a, .login {
-        width: 100% !important;
+    .menu,
+    .menu a {
+        width: 100%;
+    }
+
+    .login {
+        width: calc(100% - 16px) !important;
     }
 }
