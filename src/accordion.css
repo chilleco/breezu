@@ -1,44 +1,46 @@
-.accordion {
-    margin-bottom: 16px;
-}
+.breezu {
+    .accordion {
+        margin-bottom: 16px;
+    }
 
-.accordion > div:first-child > div:first-child {
-    border-top-left-radius: var(--radius-small);
-    border-top-right-radius: var(--radius-small);
-}
+    .accordion > div:first-child > div:first-child {
+        border-top-left-radius: var(--radius-small);
+        border-top-right-radius: var(--radius-small);
+    }
 
-.accordion > div:last-child > div:last-child {
-    border-bottom-left-radius: var(--radius-small);
-    border-bottom-right-radius: var(--radius-small);
-}
+    .accordion > div:last-child > div:last-child {
+        border-bottom-left-radius: var(--radius-small);
+        border-bottom-right-radius: var(--radius-small);
+    }
 
-.accordion > div > div {
-    border: 1px solid #c0c0c0;
-    padding: .5em .5em;
-    width: 100%;
-    margin-top: -1px;
-}
+    .accordion > div > div {
+        border: 1px solid #c0c0c0;
+        padding: .5em .5em;
+        width: 100%;
+        margin-top: -1px;
+    }
 
-.accordion .head {
-    cursor: pointer;
-    background-color: #f3f3f3;
-}
+    .accordion .head {
+        cursor: pointer;
+        background-color: #f3f3f3;
+    }
 
-.accordion .item {
-    padding: 0;
-}
+    .accordion .item {
+        padding: 0;
+    }
 
-.accordion .item div {
-    width: 50%;
-    display: inline-block;
-}
+    .accordion .item div {
+        width: 50%;
+        display: inline-block;
+    }
 
-.accordion .item div:first-child {
-    padding-left: 2.5em;
-}
+    .accordion .item div:first-child {
+        padding-left: 2.5em;
+    }
 
-.accordion .item input {
-    margin: 0;
-    border-radius: 0;
-    text-align: right;
+    .accordion .item input {
+        margin: 0;
+        border-radius: 0;
+        text-align: right;
+    }
 }

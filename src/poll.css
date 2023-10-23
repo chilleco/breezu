@@ -1,27 +1,29 @@
-.poll {
-    width: 100%;
-    padding: 12px 12px 2px 12px;
-}
+.breezu {
+    .poll {
+        width: 100%;
+        padding: 12px 12px 2px 12px;
+    }
 
-.poll p {
-    margin: 0;
-}
+    .poll p {
+        margin: 0;
+    }
 
-.poll div {
-    padding: .7em;
-    margin: 1em 0;
-    text-align: center;
-    width: 100%;
-    background-color: var(--input);
-    border-radius: var(--radius-big);
-    cursor: pointer;
-}
+    .poll div {
+        padding: .7em;
+        margin: 1em 0;
+        text-align: center;
+        width: 100%;
+        background-color: var(--input);
+        border-radius: var(--radius-big);
+        cursor: pointer;
+    }
 
-.right .poll div {
-    margin: .7em 0;
-    border-radius: var(--radius-small);
-}
+    .right .poll div {
+        margin: .7em 0;
+        border-radius: var(--radius-small);
+    }
 
-.poll div:hover {
-    filter: brightness(95%);
+    .poll div:hover {
+        filter: brightness(95%);
+    }
 }

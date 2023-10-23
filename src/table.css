@@ -1,8 +1,10 @@
-.table {
-    overflow-x: auto;
-}
+.breezu {
+    .table {
+        overflow-x: auto;
+    }
 
-.table table {
-    width: 100%;
-    white-space: nowrap;
+    .table table {
+        width: 100%;
+        white-space: nowrap;
+    }
 }

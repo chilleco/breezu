@@ -1,6 +1,6 @@
 {
   "name": "breezu",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "Minimalist universal UI framework",
   "main": "dist/index.css",
   "scripts": {
@@ -34,6 +34,7 @@
   },
   "devDependencies": {
     "postcss": "^8.4.28",
-    "postcss-import": "^15.1.0"
+    "postcss-import": "^15.1.0",
+    "postcss-nested": "^6.0.1"
   }
 }

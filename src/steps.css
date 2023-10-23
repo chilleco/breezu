@@ -1,31 +1,33 @@
-.inline {
-    width: 100%;
-    white-space: nowrap;
-    text-align: center;
-    margin: 8px 0 16px 0;
-}
+.breezu {
+    .inline {
+        width: 100%;
+        white-space: nowrap;
+        text-align: center;
+        margin: 8px 0 16px 0;
+    }
 
-.inline i {
-    font-size: 1.5em;
-    color: #c0c0c0; /* FIXME */
-    display: inline-block;
-}
+    .inline i {
+        font-size: 1.5em;
+        color: #c0c0c0; /* FIXME */
+        display: inline-block;
+    }
 
-i.active {
-    color: var(--font-green);
-}
+    i.active {
+        color: var(--font-green);
+    }
 
-.inline hr {
-    width: calc(100% / 3 - 3.6em);
-    display: inline-block;
-    margin: .5em;
-    color: #c0c0c0;
-    background-color: #c0c0c0;
-    border: 0;
-    height: 3px;
-}
+    .inline hr {
+        width: calc(100% / 3 - 3.6em);
+        display: inline-block;
+        margin: .5em;
+        color: #c0c0c0;
+        background-color: #c0c0c0;
+        border: 0;
+        height: 3px;
+    }
 
-hr.active {
-    color: var(--font-green);
-    background-color: var(--font-green);
+    hr.active {
+        color: var(--font-green);
+        background-color: var(--font-green);
+    }
 }
