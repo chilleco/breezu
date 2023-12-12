@@ -1,7 +1,7 @@
 .breezu {
     .cards {
         width: calc(100% + 15px);
-        margin: -15px 0 0 -15px;
+        margin: 9px 0 0 -15px;
     }
 
     .card {
