@@ -2,11 +2,10 @@
     .body {
         width: calc(100% - 32px);
         margin: 16px; /* 24px */
-        margin-top: 40px;
+        margin-top: 0;
     }
 
     .body > div {
-        display: inline-block;
         vertical-align: top;
     }
 
@@ -22,6 +21,7 @@
     .rmain > div,
     .lcmain > div,
     .crmain > div {
+        width: 100%;
         background-color: var(--block);
         border-radius: var(--radius-big);
         box-shadow: 0 .25rem 1.5rem rgba(0, 0, 0, .12);
@@ -47,10 +47,6 @@
     .cmain,
     .crmain {
         margin-left: 12px;
-    }
-
-    .main {
-        width: 100%;
     }
 
     .lmain {

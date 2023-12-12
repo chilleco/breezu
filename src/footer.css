@@ -1,0 +1,26 @@
+.breezu {
+    footer,
+    .footer {
+        width: 100%;
+        padding: 12px 24px;
+    }
+
+    footer img,
+    .footer img {
+        height: 24px;
+    }
+
+    .footer_left,
+    .footer_center,
+    .footer_right {
+        width: calc(100% / 3);
+    }
+
+    .footer_center {
+        text-align: center;
+    }
+
+    .footer_right {
+        text-align: right;
+    }
+}

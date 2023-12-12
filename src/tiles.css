@@ -16,13 +16,11 @@
         padding: 0;
         width: calc(100% / 3 - 15px);
         margin-top: 15px;
-        display: inline-block;
         vertical-align: top;
     }
 
     .tile_image {
         /* margin: 5px 0 5px 5px; */
-        display: inline-block;
         width: 100px;
         height: 100px;
         vertical-align: top;
@@ -33,9 +31,12 @@
 
     .tile_body {
         padding: 10px 17px 5px 10px;
-        display: inline-block;
         width: calc(100% - 100px);
         vertical-align: top;
+    }
+
+    .tile_body div {
+        display: block;
     }
 
     .tile_title {

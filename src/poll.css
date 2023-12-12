@@ -18,7 +18,8 @@
         cursor: pointer;
     }
 
-    .right .poll div {
+    .lmain .poll div,
+    .rmain .poll div {
         margin: .7em 0;
         border-radius: var(--radius-small);
     }

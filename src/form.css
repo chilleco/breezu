@@ -37,14 +37,18 @@
 
     /* Side */
 
-    .right .form input:first-child,
-    .right .form button:first-child {
+    .lmain .form input:first-child,
+    .lmain .form button:first-child,
+    .rmain .form input:first-child,
+    .rmain .form button:first-child {
         border-top-left-radius: var(--radius-big);
         border-top-right-radius: var(--radius-big);
     }
 
-    .right .form input:last-child,
-    .right .form button:last-child {
+    .lmain .form input:last-child,
+    .lmain .form button:last-child,
+    .rmain .form input:last-child,
+    .rmain .form button:last-child {
         border-bottom-left-radius: var(--radius-big);
         border-bottom-right-radius: var(--radius-big);
     }

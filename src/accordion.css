@@ -31,7 +31,6 @@
 
     .accordion .item div {
         width: 50%;
-        display: inline-block;
     }
 
     .accordion .item div:first-child {

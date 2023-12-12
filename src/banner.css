@@ -10,7 +10,6 @@
 
     .banner_body,
     .banner_side {
-        display: inline-block;
         padding: 2em;
     }
 
@@ -22,6 +21,13 @@
     .banner_body h2 {
         font-size: 2em;
         font-weight: 400;
+    }
+
+    .banner_body button {
+        width: auto;
+        height: 46px;
+        margin-top: 24px;
+        padding: 12px 24px;
     }
 
     .banner_side {
