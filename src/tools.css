@@ -1,0 +1,39 @@
+.breezu {
+    .tools {
+        text-align: right;
+        display: flex;
+        align-items: center;
+        text-align: right;
+        margin-left: auto;
+        flex-wrap: wrap;
+    }
+
+    .tools > div {
+        margin-left: 12px;
+    }
+
+    .tools > div > * {
+        display: inline-block;
+        height: 42px;
+        width: 42px;
+        padding: 12px 0;
+        line-height: 18px;
+        cursor: pointer;
+        text-align: center;
+        background: rgba(210, 210, 210, 0.5);
+        backdrop-filter: blur(5px);
+        /* filter: blur(10px); */
+    }
+    .tools > div > *:hover {
+        box-shadow: inset 0 0 0 3000px rgba(150, 150, 150, 0.192);
+    }
+
+    .tools > div > *:first-child {
+        border-top-left-radius: var(--radius-small);
+        border-bottom-left-radius: var(--radius-small);
+    }
+    .tools > div > *:last-child {
+        border-top-right-radius: var(--radius-small);
+        border-bottom-right-radius: var(--radius-small);
+    }
+}
