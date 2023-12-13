@@ -18,7 +18,10 @@
         display: flex;
         justify-content: center;
     }
-
+    .title .icon.red {
+        background-color: rgba(255, 68, 1, 0.1);
+        color: rgba(255, 68, 1, 0.4);
+    }
     .title .icon.violet {
         background-color: var(--bg-violet);
         color: var(--font-violet);
@@ -31,9 +34,22 @@
     .title h1 {
         margin: 0;
     }
+    .title ul {
+        list-style: none;
+        margin: 0;
+    }
 
+    .title_body {
+        margin: 4px 0;
+    }
     .title_body a {
         margin-left: 4px;
         text-decoration: underline dotted;
+    }
+
+    .breadcrumb {
+        font-size: .75em;
+        font-weight: 600;
+        padding: 0 4px 0 7px;
     }
 }

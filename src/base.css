@@ -36,8 +36,9 @@ body.breezu {
         margin: 0;
     }
 
-    div {
+    div:not(.ck div) {
         display: inline-block;
+        vertical-align: top;
     }
 
     /* Form */

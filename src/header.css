@@ -17,7 +17,7 @@
         position: relative;
         height: 62px;
         margin: 16px; /* 24px */
-        display: inline-flex;
+        display: inline-flex !important;
         align-items: center;
         width: calc(100% - 32px);
         background-color: #fff;
@@ -46,7 +46,7 @@
 
     .header img, .menu, .login {
         justify-content: center;
-        display: flex;
+        display: flex !important;
         align-items: center;
     }
 
@@ -63,7 +63,7 @@
     .menu a {
         height: 62px;
         padding: 0 24px;
-        display: inline-flex;
+        display: inline-flex !important;
         align-items: center;
     }
 
@@ -123,11 +123,11 @@
     .block {
         flex-grow: 1;
         width: auto;
-        display: flex;
+        display: flex !important;
     }
 
     .avatar {
-        display: flex;
+        display: flex !important;
         align-items: center;
         margin-right: 16px;
     }
@@ -143,11 +143,11 @@
     }
 
     .profile > * {
-        display: block;
+        /* display: block !important; */
         width: 100%;
         padding: 4px 16px;
         height: 48px;
-        display: flex;
+        display: flex !important;
         align-items: center;
     }
 
@@ -166,17 +166,17 @@
 
     @media (min-width: 951px) {
         .space, .burger {
-            display: none;
+            display: none !important;
         }
     }
 
     @media (max-width: 950px) {
         .space, .burger {
-            display: flex;
+            display: flex !important;
         }
 
         .hidden {
-            display: none;
+            display: none !important;
         }
 
         .block {

@@ -471,6 +471,61 @@
                         </div>
                     </a>
                 </div>
+
+                <div class="main text">
+                    <input
+                        type="text"
+                        placeholder="Title"
+                    ></input>
+                    <div>
+                        <div class="half_medium">
+                            <label
+                                class="upload"
+                                for="uploader"
+                            >
+                                <i class="bi bi-file-earmark-arrow-up"></i>
+                                <input
+                                    id="uploader"
+                                    type="file"
+                                    accept="image/jpeg, image/png"
+                                />
+                            </label>
+                        </div><div class="half_medium">
+                            <div class="input">
+                                <label for="categoryLocale">
+                                    Locale
+                                </label>
+                                <select
+                                    class="form-select"
+                                    id="categoryLocale"
+                                    value="locale"
+                                >
+                                    <option value="" defaultValue>🌎 Worlwide</option>
+                                    <option value="en">🇬🇧 English</option>
+                                </select>
+                            </div>
+
+                            <div class="input">
+                                <label for="category">
+                                    Category
+                                </label>
+                                <select
+                                    class="form-select"
+                                    id="category"
+                                    value="category"
+                                >
+                                    <option value="0" defaultValue>Top category</option>
+                                    <option value="1" defaultValue>sci</option>
+                                    <option value="2" defaultValue>tech</option>
+                                </select>
+                            </div>
+                            <textarea
+                                placeholder="Description"
+                                style="height: 146px"
+                            ></textarea>
+                        </div>
+                    </div>
+                </div>
             </div>
             <footer>
                 <div class="footer_left">

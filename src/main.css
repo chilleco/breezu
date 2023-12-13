@@ -32,7 +32,9 @@
 
     /* Form */
 
-    input {
+    input,
+    textarea,
+    .input {
         background-color: var(--input);
         width: 100%;
         border: 0;
@@ -43,7 +45,8 @@
         margin-bottom: 1rem;
     }
 
-    button {
+    button,
+    .button {
         background-color: var(--accent);
         color: var(--font-dark);
         width: 100%;
@@ -55,9 +58,35 @@
         font-weight: 600;
         cursor: pointer;
     }
-
-    button:hover {
+    button:hover,
+    .button:hover {
         background-color: var(--accent-hover);
+    }
+
+    .input {
+        display: flex !important;
+        padding: 0;
+    }
+
+    .input label,
+    .input select {
+        padding: .375rem .75rem;
+        border: 0;
+        display: flex;
+    }
+    .input select {
+        background-color: inherit;
+        position: relative;
+        flex: 1 1 auto;
+        width: 1%;
+        min-width: 0;
+        border-radius: var(--radius-small);
+        background-image: var(--img-reveal),var(--img-reveal,none);
+        background-repeat: no-repeat;
+        background-position: right 0.75rem center;
+        background-size: 16px 12px;
+        appearance: none;
+        padding-right: 2.25rem;
     }
 
     /* Table */
