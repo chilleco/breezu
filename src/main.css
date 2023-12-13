@@ -64,7 +64,7 @@
     }
 
     .input {
-        display: flex !important;
+        display: flex;
         padding: 0;
     }
 

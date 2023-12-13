@@ -1,0 +1,6 @@
+.breezu {
+    .post_cover {
+        width: 100%;
+        border-radius: var(--radius-small) var(--radius-small) 0 0;
+    }
+}

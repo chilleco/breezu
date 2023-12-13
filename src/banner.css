@@ -3,7 +3,7 @@
         width: 100%;
         border-radius: var(--radius-big);
         min-height: 500px;
-        display: flex !important;
+        display: flex;
         align-items: center;
         justify-content: space-between;
         margin-top: .25em;

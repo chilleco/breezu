@@ -12,6 +12,11 @@
         margin-left: 12px;
     }
 
+    .tools button {
+        color: var(--font);
+        border-radius: initial;
+    }
+
     .tools > div > * {
         display: inline-block;
         height: 42px;

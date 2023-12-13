@@ -1,10 +1,9 @@
 .breezu {
     .title {
-        display: flex !important;
-        align-items: center;
-        /* margin-bottom: 8px; */
         display: flex;
+        align-items: center;
         flex-wrap: wrap;
+        /* margin-bottom: 8px; */
     }
 
     .title .icon {
@@ -40,7 +39,9 @@
     }
 
     .title_body {
-        margin: 4px 0;
+        display: flex;
+        flex-direction: column;
+        margin: 4px 0 0 4px;
     }
     .title_body a {
         margin-left: 4px;
