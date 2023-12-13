@@ -1,0 +1,55 @@
+.breezu {
+    .tetra {
+        width: 100%;
+        padding-top: 2em;
+    }
+
+    .tetra div {
+        display: inline-block;
+        width: 25%;
+        padding: 0 2em 2em 2em;
+        vertical-align: top;
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+
+    .tetra div font {
+        font-weight: inherit;
+        color: rgba(255, 68, 1, 0.6);
+    }
+
+    @media (max-width: 1200px) {
+        .tetra div {
+            padding: 0 1em 2em 1em;
+            font-size: 1.3em;
+        }
+    }
+
+    @media (max-width: 950px) {
+        .tetra div {
+            font-size: 1.1em;
+        }
+    }
+
+    @media (max-width: 900px) {
+        .tetra div {
+            padding: 0 0 2em 0;
+            font-size: 1.25em;
+            width: 50%;
+        }
+    }
+
+    .scroll {
+        width: 100%;
+        text-align: center;
+        font-size: 1.4em;
+        margin: -1em 0 1em 0;
+    }
+
+    @media (max-width: 768px) {
+        .scroll {
+            display: none !important;
+        }
+    }
+}

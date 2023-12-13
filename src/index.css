@@ -1,9 +1,12 @@
 @import '../dist/main.css';
+
 @import 'base.css';
 @import 'main.css';
+
 @import 'body.css';
 @import 'header.css';
 @import 'footer.css';
+
 @import 'accordion.css';
 @import 'form.css';
 @import 'poll.css';
@@ -11,10 +14,15 @@
 @import 'steps.css';
 @import 'table.css';
 @import 'tag.css';
+
 @import 'cards.css';
 @import 'tiles.css';
+
 @import 'title.css';
 @import 'tools.css';
 @import 'categories.css';
+
 @import 'banner.css';
+@import 'tetra.css';
+
 @import 'popup.css';

@@ -2,7 +2,7 @@
     .title {
         display: flex !important;
         align-items: center;
-        margin-bottom: 8px;
+        /* margin-bottom: 8px; */
         display: flex;
         flex-wrap: wrap;
     }
