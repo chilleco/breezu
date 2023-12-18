@@ -38,6 +38,11 @@
         margin: 0;
     }
 
+    .title li {
+        display: flex;
+        align-items: center;
+    }
+
     .title_body {
         display: flex;
         flex-direction: column;

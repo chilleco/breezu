@@ -1,11 +1,11 @@
 {
   "name": "breezu",
-  "version": "0.1.18",
+  "version": "0.1.19",
   "description": "Minimalist universal UI framework",
   "main": "dist/index.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile:scss": "node-sass src/main.scss dist/main.css",
+    "compile:scss": "sass src/main.scss dist/main.css",
     "combine:css": "postcss src/index.css -o dist/index.css",
     "build": "npm run compile:scss && npm run combine:css"
   },
@@ -29,12 +29,12 @@
   "dependencies": {
     "concat": "^1.0.3",
     "cssnano": "^6.0.1",
-    "node-sass": "^9.0.0",
     "postcss-cli": "^10.1.0"
   },
   "devDependencies": {
     "postcss": "^8.4.28",
     "postcss-import": "^15.1.0",
-    "postcss-nested": "^6.0.1"
+    "postcss-nested": "^6.0.1",
+    "sass": "^1.69.5"
   }
 }

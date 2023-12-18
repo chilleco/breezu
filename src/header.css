@@ -201,5 +201,9 @@
         .login {
             width: calc(100% - 16px) !important;
         }
+
+        .avatar {
+            padding: 0 24px;
+        }
     }
 }
