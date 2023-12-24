@@ -1,0 +1,37 @@
+.breezu {
+    .units {
+        width: 100%;
+    }
+
+    .unit {
+        height: 140px;
+        margin-top: 16px;
+        background-color: var(--block);
+        width: 100%;
+        vertical-align: top;
+        cursor: pointer;
+        border-radius: var(--radius-small);
+        box-shadow: 0 0.25rem 1.5rem rgb(0 0 0 / 12%) !important;
+        transition: all .3s cubic-bezier(0, 0, .5, 1);
+        display: inline-flex;
+        flex-direction: column;
+        word-wrap: break-word;
+    }
+
+    .unit:hover {
+        transform: scale3d(1.01, 1.01, 1.01);
+    }
+
+    .unit_image {
+        background-size: cover;
+        background-position: center center;
+        width: 140px;
+        height: 140px;
+        border-radius: var(--radius-small) 0 0 var(--radius-small);
+    }
+
+    .unit_body {
+        padding: 1em;
+        flex: 1 1 auto;
+    }
+}

@@ -56,13 +56,18 @@ body.breezu {
     input {
         font-weight: 400;
     }
+    textarea {
+        resize: none;
+    }
 
+    label {
+        align-items: center;
+    }
     select {
         cursor: pointer;
     }
-
-    textarea {
-        resize: none;
+    select:focus {
+        outline: none;
     }
 
     /* List */
