@@ -7,6 +7,8 @@
 @import 'header.css';
 @import 'footer.css';
 
+@import 'search.css';
+
 @import 'accordion.css';
 @import 'form.css';
 @import 'poll.css';
