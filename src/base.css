@@ -38,7 +38,8 @@ body.breezu {
     }
 
     div {
-        display: inline-block;
+        /* display: inline-block; */
+        /* TODO: inline-block in sub-elements */
         vertical-align: top;
     }
 
