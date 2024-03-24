@@ -15,7 +15,8 @@
         top: 16px; */
         position: relative;
         height: 62px;
-        margin: 16px; /* 24px */
+        margin: 16px;
+        /* 24px */
         display: inline-flex;
         align-items: center;
         width: calc(100% - 32px);
@@ -43,13 +44,16 @@
         box-shadow: 0 .75rem 2.25rem rgba(0, 0, 0, .2);
     }
 
-    .header img, .menu, .login {
+    .header img,
+    .menu,
+    .login {
         justify-content: center;
         display: flex;
         align-items: center;
     }
 
-    .menu, .space {
+    .menu,
+    .space {
         width: auto;
         flex: 1;
     }
@@ -71,10 +75,11 @@
         margin-right: 8px;
     }
 
-    .menu > a:hover {
+    .menu>a:hover {
         background-color: rgb(238, 238, 239);
         /* background-color: var(--bg-yellow); */
     }
+
     /* .menu > a.green:hover {
         background-color: var(--bg-green);
     }
@@ -141,7 +146,7 @@
         width: 160px;
     }
 
-    .profile > * {
+    .profile>* {
         display: flex;
         align-items: center;
         width: 100%;
@@ -149,27 +154,31 @@
         height: 48px;
     }
 
-    .profile > *:first-child {
+    .profile>*:first-child {
         border-radius: var(--radius-big) var(--radius-big) 0 0;
     }
 
-    .profile > *:last-child {
+    .profile>*:last-child {
         border-radius: 0 0 var(--radius-big) var(--radius-big);
     }
 
-    .profile > *:hover {
+    .profile>*:hover {
         background-color: #fff5ec;
         /* background-color: #f8f9fa; */
     }
 
     @media (min-width: 951px) {
-        .space, .burger {
+
+        .space,
+        .burger {
             display: none;
         }
     }
 
     @media (max-width: 950px) {
-        .space, .burger {
+
+        .space,
+        .burger {
             display: flex;
         }
 
@@ -188,7 +197,8 @@
             flex-direction: column;
         }
 
-        .block, .menu {
+        .block,
+        .menu {
             flex-wrap: wrap;
         }
 

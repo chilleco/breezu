@@ -24,6 +24,7 @@
         z-index: 90;
         margin: 18px 0 8px 0;
     }
+
     .search:hover {
         box-shadow: 0 .75rem 2.25rem rgba(0, 0, 0, .2);
     }
@@ -47,11 +48,12 @@
         max-width: 20%;
     }
 
-    .search > *:first-child {
+    .search>*:first-child {
         border-top-left-radius: var(--radius-big) !important;
         border-bottom-left-radius: var(--radius-big) !important;
     }
-    .search > *:last-child {
+
+    .search>*:last-child {
         border-top-right-radius: var(--radius-big) !important;
         border-bottom-right-radius: var(--radius-big) !important;
     }

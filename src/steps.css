@@ -8,7 +8,8 @@
 
     .inline i {
         font-size: 1.5em;
-        color: #c0c0c0; /* FIXME */
+        color: #c0c0c0;
+        /* FIXME */
         display: inline-block;
     }
 

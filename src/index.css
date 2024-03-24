@@ -30,3 +30,8 @@
 @import 'tetra.css';
 
 @import 'popup.css';
+
+
+.breezu .not-breezu * {
+    all: revert;
+}

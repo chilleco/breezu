@@ -2,27 +2,28 @@
     .body {
         width: calc(100vw - 32px);
         min-height: calc(100vh - 165px);
-        margin: 16px; /* 24px */
+        margin: 16px;
+        /* 24px */
         margin-top: 0;
     }
 
-    .body > div {
+    .body>div {
         vertical-align: top;
         /* width: 100%; */
     }
 
-    .body > div:last-child {
+    .body>div:last-child {
         margin-bottom: 24px;
     }
 
     /* Body blocks */
 
     .main,
-    .lmain > div,
-    .cmain > div,
-    .rmain > div,
-    .lcmain > div,
-    .crmain > div {
+    .lmain>div,
+    .cmain>div,
+    .rmain>div,
+    .lcmain>div,
+    .crmain>div {
         width: 100%;
         background-color: var(--block);
         border-radius: var(--radius-big);
@@ -30,7 +31,8 @@
         transition: box-shadow 0.3s ease-in-out;
         margin-top: 24px;
     }
-/*
+
+    /*
     .lmain > div,
     .cmain > div,
     .rmain > div,
@@ -40,6 +42,7 @@
     } */
 
     @media (min-width: 769px) {
+
         .lmain,
         .cmain,
         .lcmain {
@@ -55,9 +58,11 @@
         .lmain {
             width: calc(29% - 12px);
         }
+
         .cmain {
             width: calc(39% - 24px);
         }
+
         .rmain {
             width: calc(32% - 12px);
         }
@@ -65,12 +70,14 @@
         .lcmain {
             width: calc(68% - 12px);
         }
+
         .crmain {
             width: calc(71% - 12px);
         }
     }
 
     @media (max-width: 768px) {
+
         .lmain,
         .cmain,
         .rmain,
@@ -86,9 +93,11 @@
         .half_medium {
             width: 50%;
         }
+
         .half_medium:first-child {
             padding-right: 12px;
         }
+
         .half_medium:last-child {
             padding-left: 12px;
         }
@@ -98,6 +107,7 @@
         .half_medium {
             width: 100%;
         }
+
         .half_medium:last-child {
             margin-top: 16px;
         }

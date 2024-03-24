@@ -1,6 +1,7 @@
 .breezu {
     .form input {
-        background-color: #fff; /* FIXME */
+        background-color: #fff;
+        /* FIXME */
     }
 
     button.inactive {
@@ -25,7 +26,8 @@
 
     .form input:not(:last-child),
     .form button:not(:last-child) {
-        border-bottom: 1px solid var(--table-line); /* FIXME */
+        border-bottom: 1px solid var(--table-line);
+        /* FIXME */
     }
 
     .form input:last-child,
@@ -61,7 +63,7 @@
         border-radius: 0 !important;
     }
 
-    .inline > button:only-child {
+    .inline>button:only-child {
         width: 100% !important;
     }
 
@@ -80,7 +82,8 @@
     .upload {
         width: 100vw;
         height: 250px;
-        border: 2px dashed #6c757d; /* FIXME */
+        border: 2px dashed #6c757d;
+        /* FIXME */
         border-radius: var(--radius-small);
         cursor: pointer;
         display: table-cell;

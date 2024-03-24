@@ -7,6 +7,7 @@ body.breezu {
 }
 
 .breezu {
+
     *,
     :after,
     :before {
@@ -16,7 +17,7 @@ body.breezu {
     * {
         /* font-family: 'YS Text', 'Helvetica Neue', Arial, sans-serif; */
         /* font-family: Averta,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,"Noto Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; */
-        font-family: Avenir Next,Inter,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,sans-serif;
+        font-family: Avenir Next, Inter, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica, Arial, sans-serif;
         font-weight: 500;
     }
 
@@ -56,6 +57,7 @@ body.breezu {
     input {
         font-weight: 400;
     }
+
     textarea {
         resize: none;
     }
@@ -63,9 +65,11 @@ body.breezu {
     label {
         align-items: center;
     }
+
     select {
         cursor: pointer;
     }
+
     select:focus {
         outline: none;
     }
@@ -96,9 +100,10 @@ body.breezu {
     }
 
     @media(min-width: 1200px) {
+
         .h1,
         h1 {
-            font-size:2.5rem
+            font-size: 2.5rem
         }
     }
 
@@ -108,9 +113,10 @@ body.breezu {
     }
 
     @media(min-width: 1200px) {
+
         .h2,
         h2 {
-            font-size:2rem
+            font-size: 2rem
         }
     }
 
@@ -120,6 +126,7 @@ body.breezu {
     }
 
     @media(min-width: 1200px) {
+
         .h3,
         h3 {
             font-size: 1.75rem
@@ -132,9 +139,10 @@ body.breezu {
     }
 
     @media(min-width: 1200px) {
+
         .h4,
         h4 {
-            font-size:1.5rem
+            font-size: 1.5rem
         }
     }
 
