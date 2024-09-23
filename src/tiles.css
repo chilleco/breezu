@@ -17,6 +17,7 @@
         width: calc(100% / 3 - 15px);
         margin-top: 15px;
         vertical-align: top;
+        display: inline-block;
     }
 
     .tile_image {

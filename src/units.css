@@ -5,16 +5,19 @@
 
     .unit {
         height: 140px;
-        margin-top: 16px;
+        /* margin-top: 16px; */
+        margin-top: 24px;
         background-color: var(--block);
         width: 100%;
         vertical-align: top;
         cursor: pointer;
-        border-radius: var(--radius-small);
+        /* border-radius: var(--radius-small); */
+        border-radius: var(--radius-big);
         box-shadow: 0 0.25rem 1.5rem rgb(0 0 0 / 12%) !important;
         transition: all .3s cubic-bezier(0, 0, .5, 1);
         display: inline-flex;
         word-wrap: break-word;
+        flex-direction: row !important;
     }
 
     .unit:hover {
@@ -26,7 +29,8 @@
         background-position: center center;
         width: 140px;
         height: 140px;
-        border-radius: var(--radius-small) 0 0 var(--radius-small);
+        /* border-radius: var(--radius-small) 0 0 var(--radius-small); */
+        border-radius: var(--radius-big) 0 0 var(--radius-big);
     }
 
     .unit_body {

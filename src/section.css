@@ -7,6 +7,10 @@
         font-size: 1.05em;
     }
 
+    .lmain .section {
+        line-height: 58px;
+    }
+
     .section i {
         margin: 0 5px;
     }

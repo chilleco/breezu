@@ -10,8 +10,13 @@
     --link: #336fee;
     --link-hover: #1f50ba;
 
-    --table-head: #f7f7f9; /* #eeeef3 */ /* #e9ecef */ /* #f8fafd */
-    --table-head-line: #dee2e6; /* #c0c0c0 */ /* #808080 */
+    --table-head: #f7f7f9;
+    /* #eeeef3 */
+    /* #e9ecef */
+    /* #f8fafd */
+    --table-head-line: #dee2e6;
+    /* #c0c0c0 */
+    /* #808080 */
     --table-line: #dee2e6;
     --table-hover: #f8fafd;
 
@@ -43,6 +48,8 @@
     // red
     --bg-red: rgba(249, 226, 226);
     --font-red: rgb(232, 119, 115);
+    --btn-red: #dc3545;
+    --btn-red-hover: #bb2d3b;
 
     // orange
     --bg-orange: #fff5ec;
@@ -57,7 +64,7 @@
     --btn-hover-yellow: #ffcc33;
 
     // pink - orange
-    --bg-pink-orange: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(45deg,#ff4087,#ffc056);
+    --bg-pink-orange: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(45deg, #ff4087, #ffc056);
 
     --accent: var(--btn-green);
     --accent-hover: var(--btn-hover-green);

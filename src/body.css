@@ -32,6 +32,16 @@
         margin-top: 24px;
     }
 
+    .body,
+    .half_medium,
+    .lmain,
+    .cmain,
+    .rmain,
+    .crmain,
+    .lcmain {
+        display: inline-block;
+    }
+
     /*
     .lmain > div,
     .cmain > div,
@@ -56,23 +66,28 @@
         }
 
         .lmain {
-            width: calc(29% - 12px);
+            /* NOTE: !important to mashed classes */
+            width: calc(29% - 12px) !important;
         }
 
         .cmain {
-            width: calc(39% - 24px);
+            /* NOTE: !important to mashed classes */
+            width: calc(39% - 24px) !important;
         }
 
         .rmain {
-            width: calc(32% - 12px);
+            /* NOTE: !important to mashed classes */
+            width: calc(32% - 12px) !important;
         }
 
         .lcmain {
-            width: calc(68% - 12px);
+            /* NOTE: !important to mashed classes */
+            width: calc(68% - 12px) !important;
         }
 
         .crmain {
-            width: calc(71% - 12px);
+            /* NOTE: !important to mashed classes */
+            width: calc(71% - 12px) !important;
         }
     }
 
@@ -83,7 +98,8 @@
         .rmain,
         .lcmain,
         .crmain {
-            width: 100%;
+            /* NOTE: !important to mashed classes */
+            width: 100% !important;
         }
     }
 
