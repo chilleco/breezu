@@ -3,11 +3,15 @@
 @import 'base.css';
 @import 'main.css';
 
+/* Structure */
 @import 'body.css';
 @import 'header.css';
 @import 'footer.css';
 
+/* Forms */
 @import 'search.css';
+@import 'checkbox.css';
+@import 'filters.css';
 
 @import 'accordion.css';
 @import 'form.css';
