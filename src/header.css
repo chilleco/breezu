@@ -68,6 +68,12 @@
         padding: 0 24px;
         display: inline-flex;
         align-items: center;
+        cursor: pointer;
+    }
+
+    .menu a.disabled {
+        cursor: default;
+        color: #c0c0c0;
     }
 
     .menu i,
